@@ -4,9 +4,9 @@ import SearchIcon from "@mui/icons-material/Search";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
 
-export default function Navbar() {
+export default function Sidebar() {
   return (
-    <nav className="h-full flex flex-col p-[34px] gap-[32px] justify-start items-center bg-[#131313]">
+    <nav className="h-full flex flex-col pt-[34px] pb-[34px] gap-[32px] justify-start items-center bg-[#131313]">
       <Link href={`/`}>
         <Image
           src="assets/navbar/logo.svg"
