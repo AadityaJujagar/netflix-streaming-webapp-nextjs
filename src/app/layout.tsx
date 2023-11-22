@@ -21,7 +21,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon/icons8-video-windows-11-color-32.png" />
         <link rel="icon" href="/favicon/icons8-video-windows-11-color-96.png" />
       </head>
-      <body className="flex m-0 p-0 box-border w-screen h-screen overflow-x-hidden overflow-y-auto bg-[#232323]">
+      <body className="flex m-0 p-0 box-border w-screen overflow-x-hidden overflow-y-auto bg-[#232323]">
         <div className="w-1/12">
           <Sidebar />
         </div>
