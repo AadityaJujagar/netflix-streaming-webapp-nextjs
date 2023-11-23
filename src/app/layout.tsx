@@ -21,11 +21,11 @@ export default function RootLayout({
         <link rel="icon" href="/favicon/icons8-video-windows-11-color-32.png" />
         <link rel="icon" href="/favicon/icons8-video-windows-11-color-96.png" />
       </head>
-      <body className="flex m-0 p-0 box-border w-screen overflow-x-hidden overflow-y-auto bg-[#232323]">
-        <div className="w-1/12 h-screen">
+      <body className="flex m-0 p-0 box-border w-screen min-h-screen overflow-x-hidden overflow-y-auto bg-[#232323]">
+        <div className="w-1/12 min-h-screen">
           <Sidebar />
         </div>
-        <div className="w-11/12 h-screen overflow-x-hidden overflow-y-scroll">
+        <div className="w-11/12 min-h-screen overflow-x-hidden overflow-y-scroll">
           {children}
           <Footer />
         </div>

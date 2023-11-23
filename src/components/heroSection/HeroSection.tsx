@@ -28,7 +28,7 @@ export default function HeroSection() {
           <p className="text-[#fff] text-[12px] font-normal leading-7">
             Cast: Jenny Loifer, Sarah Obrien, Larry Moss Jr.
           </p>
-          <button className="w-[151px] h-[44px] mt-[48px] mb-[48px] bg-[#080808] flex justify-evenly items-center text-[#ff4e4e] rounded-full border-[0.954px] border-red-500">
+          <button className="w-[151px] h-[44px] mt-[48px] mb-[48px] bg-[#080808] transition-all duration-500 hover:bg-[#593838] flex justify-evenly items-center text-[#ff4e4e] rounded-full border-[0.954px] border-red-500">
             <Image
               src="/assets/homepage/btn-watch.svg"
               alt="Play Icon"

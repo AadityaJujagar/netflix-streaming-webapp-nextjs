@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import SearchIcon from "@mui/icons-material/Search";
-import StarBorderIcon from "@mui/icons-material/StarBorder";
-import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
 
 export default function Sidebar() {
   return (
@@ -15,14 +13,8 @@ export default function Sidebar() {
           alt="logo-image"
         />
       </Link>
-      <Link href={`/search`}>
+      <Link href={`/searchSection`}>
         <SearchIcon className="text-[#fff] w-[24px]" />
-      </Link>
-      <Link href={`/favourites`}>
-        <StarBorderIcon className="text-[#fff] w-[24px]" />
-      </Link>
-      <Link href={`/accounts`}>
-        <ManageAccountsIcon className="text-[#fff] w-[24px]" />
       </Link>
     </nav>
   );
