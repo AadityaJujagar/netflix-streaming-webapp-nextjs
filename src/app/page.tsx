@@ -7,7 +7,7 @@ export default function Home() {
       {/* hero section */}
       <HeroSection />
 
-      {/* recently added section */}
+      {/* recently added and top rated categories */}
       <FilmCategories />
     </div>
   );
